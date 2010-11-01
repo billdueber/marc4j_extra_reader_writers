@@ -6,7 +6,7 @@ What's here now:
 
 ## MARC-in-JSON conversion to/from marc4j record
 
-MARC-in-JSON is a JSON format for MARC records (just as MARC-XML is an XML format for MARC records, described by Ross Singer at http://dilettantes.code4lib.org/blog/2010/09/a-proposal-to-serialize-marc-in-json/. 
+MARC-in-JSON is a JSON format for MARC records (just as MARC-XML is an XML format for MARC records, described by [Ross Singer](http://dilettantes.code4lib.org/blog/2010/09/a-proposal-to-serialize-marc-in-json/).  I ran some [simple benchmarks](http://robotlibrarian.billdueber.com/sizespeed-of-various-marc-serializations-using-ruby-marc/) under ruby, and saw similar numbers using `marc4j4r` (part of [javamarc](http://github.com/billdueber/javamarc)), too.
 
 It's nice in that it doesn't have the length limitations of binary marc, can be easy to read, and is well-suited to querying via JSONPath or JSONQuery. It can also quite a bit faster and smaller than using MARC-XML (depending on your environment, obviously).
 
