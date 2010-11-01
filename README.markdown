@@ -11,6 +11,7 @@ MARC-in-JSON is a JSON format for MARC records (just as MARC-XML is an XML forma
 It's nice in that it doesn't have the length limitations of binary marc, can be easy to read, and is well-suited to querying via JSONPath or JSONQuery. It can also quite a bit faster and smaller than using MARC-XML (depending on your environment, obviously).
 
 ```java
+
    import org.marc4j.MarcInJSON;
    
    // Presume you've got a marc4j record object, r
