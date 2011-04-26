@@ -2,6 +2,8 @@
 
 This is a just a place where people can, if they like, stick extra import/export routines that integrate with marc4j in a place outside the marc4j distribution itself. It's mostly for formats that aren't official standards and hence probably don't belong in the core marc4j code.
 
+Note that this code relies on [marc4j](http://marc4j.tigris.org/). The MARC-in-JSON conversion further relies on the [Jackson JSON Processor](http://wiki.fasterxml.com/JacksonDownload); make sure the jackson .jar(s) (either jackson-core and jackson-mapper or just the single jackson-all) are in your CLASSPATH.
+
 What's here now:
 
 ## MARC-in-JSON conversion to/from marc4j record
